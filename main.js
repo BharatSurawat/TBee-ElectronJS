@@ -36,7 +36,7 @@ function createWindow () {
       height: 720
     })
     aboutWindow.loadURL(url.format({
-      pathname: path.join(__dirname,'src/ABOUT.html'),
+      pathname: path.join(__dirname,'src/about.html'),
       protocol: 'file',
       slashes: true
     }))
@@ -55,7 +55,7 @@ function createWindow () {
       height: 720
     })
     FAQWindow.loadURL(url.format({
-      pathname: path.join(__dirname,'src/FAQ.html'),
+      pathname: path.join(__dirname,'src/faq.html'),
       protocol: 'file',
       slashes: true
     }))
@@ -74,7 +74,7 @@ function createWindow () {
       height: 720
     })
     DeveloperWindow.loadURL(url.format({
-      pathname: path.join(__dirname,'src/Developers credits.html'),
+      pathname: path.join(__dirname,'src/credits.html'),
       protocol: 'file',
       slashes: true
     }))
